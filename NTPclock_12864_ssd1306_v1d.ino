@@ -24,7 +24,7 @@
 //U8G2_ST7567_ENH_DG128064I_F_SW_I2C u8g2(U8G2_R0, SCL, SDA, U8X8_PIN_NONE);
 //U8G2_ST7567_ENH_DG128064I_1_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
 //U8G2_SH1107_64X128_F_HW_I2C u8g2(U8G2_R1, /* reset=*/ U8X8_PIN_NONE);  // https://github.com/olikraus/u8g2/wiki/u8g2setupcpp#sh1107-64x128
-U8G2_SSD1306_128X64_NONAME_Fc_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);  // as at https://github.com/olikraus/u8g2/wiki/u8g2setupcpp#ssd1306-128x64_noname
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);  // as at https://github.com/olikraus/u8g2/wiki/u8g2setupcpp#ssd1306-128x64_noname
 
 const long timezoneOffset = 2; // ? hours
 const char          *ntpServer  = "pool.ntp.org"; // change it to local NTP server if needed
